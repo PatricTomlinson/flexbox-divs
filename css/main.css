@@ -11,7 +11,7 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #aaccff;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #008080;
+  background-color: #222233;
   height: 100%;
 }
 
@@ -108,11 +108,42 @@ body {
   height: 100%;
 }
 
-.wrapper {
-  /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+header {
+  height: 80px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  font-size: 2em;
+}
+
+main {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+footer {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  font-size: .5em;
+}
+
+.flex-container {
+  /*add display:flex and set justify-content to space-between*/
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  justify-content:space-between;
 }
 
 .div-1, .div-2, .div-3 {
@@ -120,18 +151,26 @@ body {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.25em;
-  background-color: #008080;
   height: 300px;
   display: flex;
   width: 30%;
-  justify-content: center;
-  align-items: center;
   padding: 15px;
   border: 100px;
   border-width: medium;
 
 }
 
+.flex-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222233;
+  width: 30%;
+  height: 200px;
+  font-size: 1em;
+  border-left: 1px solid #555;
+  padding-left: 20px;
+}
 
 
 
